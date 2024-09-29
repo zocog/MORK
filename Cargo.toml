@@ -8,11 +8,11 @@ rustflags = "-C opt-level=3 -C target-cpu=native"
 
 
 [dependencies.pathmap]
-path = "./PathMap"
+path = "../../PathMap"
 features = ["counters"]
 
 [dependencies.mork-frontend]
-path = "./frontend"
+path = "../frontend"
 
 [dependencies.mork-bytestring]
-path = "./experiments/expr/bytestring"
+path = "../experiments/expr/bytestring"
